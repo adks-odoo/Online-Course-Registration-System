@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <menuitem id="course_menu_root" name="Coursez">
+        <menuitem id="course_menu_main" name="Information">
+            <menuitem id="course_menu_action" action="course_reg_action" />
+            <menuitem id="course_reg_student_menu_action" action="course_reg_student_action" />
+            </menuitem>
+    </menuitem>
+</odoo>

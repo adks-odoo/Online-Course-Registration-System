@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="course_reg_action" model="ir.actions.act_window">
+        <field name="name">All Courses</field>
+        <field name="res_model">course.reg</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                No Record Found. Let's create one!!
+            </p>
+        </field>
+    </record>
+    <record id="course_reg_view_tree" model="ir.ui.view">
+        <field name="name">course.reg.tree</field>
+        <field name="model">course.reg</field>
+        <field name="arch" type="xml">
+            <tree string="Channel">
+                <field name="name" />
+                <field name="course_id" />
+                <field name="department_id" />
+                <field name="price" />
+            </tree>
+        </field>
+    </record>
+</odoo>
